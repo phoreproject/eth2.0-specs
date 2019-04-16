@@ -1,5 +1,6 @@
 from .hash_function import hash
 
+
 BYTES_PER_CHUNK = 32
 BYTES_PER_LENGTH_PREFIX = 4
 ZERO_CHUNK = b'\x00' * BYTES_PER_CHUNK
